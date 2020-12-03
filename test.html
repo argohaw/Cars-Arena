@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Data</title>
+</head>
+<body>
+    <h2>Information from Firebase</h2>
+    <center>
+        <input type="text" id="user" placeholder="name">
+        <button type="button" onclick="getdata();">GET</button>
+        <p>Brand & Model: <strong id="name"></strong></p>
+        <p>Price: <strong id="price"></strong></p>
+        <p>Fuel Type: <strong id="fueltype"></strong></p>
+        <p>Transmission: <strong id="transmission"></strong></p>
+        <p>Body Type: <strong id="bodytype"></strong></p>
+        <p>Max Power: <strong id="maxpower"></strong></p>
+    </center>
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-database.js"></script>
+</body>
+</html>
